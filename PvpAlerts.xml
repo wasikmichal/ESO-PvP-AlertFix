@@ -121,20 +121,20 @@
 					<Dimensions x="220" y="75" />
 					<Anchor point="TOP" relativeTo="$(parent)" relativePoint="TOP" offsetX="0" offsetY="-10"/>
 				</Label>
-				<Control name="$(parent)_CountContainer" inheritAlpha="true" resizeToFitDescendents = "true">
+				<Control name="$(parent)_CountContainer" inheritAlpha="true" resizeToFit = "true">
 					<Dimensions x="350" y="50" />
 					<Anchor point="TOP" relativeTo="$(parent)_Label" relativePoint="BOTTOM" offsetX="0" offsetY="0"/>
 					<Controls>
 						<Label name="$(parent)_CountAD" text="" horizontalAlignment="CENTER" verticalAlignment="CENTER" inheritAlpha="true" color="FFFFFF" wrapMode="ELLIPSIS" resizeToFit = "true">
-							<!-- <Dimensions x="25" y="50" /> -->
+							<Dimensions x="25" y="50" />
 							<Anchor point="TOPLEFT" relativeTo="$(parent)" relativePoint="TOPLEFT" offsetX="0" offsetY="0"/>
 						</Label>
 						<Label name="$(parent)_CountDC" text="" horizontalAlignment="CENTER" verticalAlignment="CENTER" inheritAlpha="true" color="FFFFFF" wrapMode="ELLIPSIS" resizeToFit = "true">
-							<!-- <Dimensions x="25" y="50" /> -->
+							<Dimensions x="25" y="50" />
 							<Anchor point="TOPLEFT" relativeTo="$(parent)_CountAD" relativePoint="TOPRIGHT" offsetX="0" offsetY="0"/>
 						</Label>
 						<Label name="$(parent)_CountEP" text="" horizontalAlignment="CENTER" verticalAlignment="CENTER" inheritAlpha="true" color="FFFFFF" wrapMode="ELLIPSIS" resizeToFit = "true">
-							<!-- <Dimensions x="25" y="50" /> -->
+							<Dimensions x="25" y="50" />
 							<Anchor point="TOPLEFT" relativeTo="$(parent)_CountDC" relativePoint="TOPRIGHT" offsetX="0" offsetY="0"/>
 						</Label>
 					</Controls>
@@ -727,7 +727,7 @@
 			<Controls>
 				<Label name="$(parent)Label" text="" font="$(BOLD_FONT)|$(KB_20)|thick-outline" color='CCCCCC' verticalAlignment="CENTER" horizontalAlignment="LEFT" level="1" resizeToFit="true">
 					<Anchor point="TOPLEFT" />
-					<Dimensions x="100" y="25" />
+					<Dimensions x="1000" y="25" />
 				</Label>
 
 				<Label name="$(parent)SubLabel" text="" font="$(BOLD_FONT)|$(KB_21)|thick-outline" color='CCCCCC' verticalAlignment="CENTER" horizontalAlignment="LEFT" level="1" resizeToFit="true">
