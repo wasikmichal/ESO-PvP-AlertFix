@@ -3,6 +3,7 @@
 <GuiXml>
 	<Controls>
 	<!-- <TopLevelControl name="PVP_Main" mouseEnabled="true" movable="true" clampedToScreen="true" hidden="true"> -->
+		
 	    <!-- <Dimensions x="400" y="140" /> -->
 			<!-- <Anchor point="CENTER" /> -->
 			<!-- <OnMoveStop> -->
